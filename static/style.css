@@ -57,4 +57,21 @@ p {
   .cute-img:hover {
     transform: scale(1.05);
   }
+
+.btn-pastel {
+  background-color: #ffcce0;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-pastel:hover {
+  background-color: #ff99cc;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 105, 180, 0.5);
+}
   
