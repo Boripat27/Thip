@@ -1,37 +1,55 @@
 body {
-    font-family: 'Comic Sans MS', 'Kanit', cursive;
-    background-color: #fff0f5;
-  }
-  
-  .cute-navbar {
-    background: linear-gradient(to right, #ffd6ec, #ffe6f0);
-    border-bottom: 3px dashed #ff9ac1;
-  }
-  
-  .text-pink {
-    color: #e75480 !important;
-  }
-  
-  .navbar-brand {
-    font-size: 1.8rem;
-  }
-  
-  .nav-link:hover {
-    background-color: #ffeaf4;
-    border-radius: 10px;
-  }
-  
-
-h1 { color: rgb(206, 78, 167);
-    font-size: 30px;
-
+  font-family: 'Comic Sans MS', 'Kanit', cursive;
+  background-color: #fff0f5;
+  color: #333;
 }
 
+/* ปุ่มพาสเทล */
+.btn-pastel {
+  background-color: #ffcce0;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(255, 192, 203, 0.4);
+  transition: all 0.3s ease;
+}
+.btn-pastel:hover {
+  background-color: #ff99cc;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 105, 180, 0.5);
+}
+
+/* Navbar */
+.cute-navbar {
+  background: linear-gradient(to right, #ffd6ec, #ffe6f0);
+  border-bottom: 3px dashed #ff9ac1;
+}
+.text-pink {
+  color: #ff66b2 !important;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+}
+.nav-link:hover {
+  background-color: #ffeaf4;
+  border-radius: 10px;
+}
+
+/* หัวข้อ + ตัวหนังสือ */
+h1 {
+  color: rgb(206, 78, 167);
+  font-size: 30px;
+}
 p {
-    color: #e7b5d2;
-    font-size: 25px;
+  color: #e7b5d2;
+  font-size: 25px;
 }
+
+/* รูปน่ารัก */
 .cute-img {
+<<<<<<< HEAD
     border: 4px dotted #ffaad4;
     padding: 8px;
     background-color: #fff0f8;
@@ -75,3 +93,16 @@ p {
   box-shadow: 0 6px 15px rgba(255, 105, 180, 0.5);
 }
   
+=======
+  border: 4px dotted #ffaad4;
+  padding: 8px;
+  background-color: #fff0f8;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.cute-img:hover {
+  transform: scale(1.05);
+}
+>>>>>>> bb34ab4 (🎨 ปรับปุ่มพาสเทลให้หวานขึ้น)
