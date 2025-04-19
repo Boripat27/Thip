@@ -1,0 +1,60 @@
+body {
+    font-family: 'Comic Sans MS', 'Kanit', cursive;
+    background-color: #fff0f5;
+  }
+  
+  .cute-navbar {
+    background: linear-gradient(to right, #ffd6ec, #ffe6f0);
+    border-bottom: 3px dashed #ff9ac1;
+  }
+  
+  .text-pink {
+    color: #e75480 !important;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+  
+  .nav-link:hover {
+    background-color: #ffeaf4;
+    border-radius: 10px;
+  }
+  
+
+h1 { color: rgb(206, 78, 167);
+    font-size: 30px;
+
+}
+
+p {
+    color: #e7b5d2;
+    font-size: 25px;
+}
+.cute-img {
+    border: 4px dotted #ffaad4;
+    padding: 8px;
+    background-color: #fff0f8;
+  }
+  .cute-img {
+    width: 400px;
+    height: auto;
+  }
+  .text-pink {
+    color: #ff66b2;
+  }
+  
+  .cute-img {
+    border: 4px dotted #ffaad4;
+    padding: 8px;
+    background-color: #fff0f8;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .cute-img:hover {
+    transform: scale(1.05);
+  }
+  
